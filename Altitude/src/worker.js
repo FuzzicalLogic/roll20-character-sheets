@@ -44,6 +44,7 @@ on("sheet:opened", function (eventinfo) {
         });
     });
 });
+
 //Start of Compendium Drops
 on("sheet:compendium-drop", function () {
     getAttrs(["hp_max", "npc_senses", "token_size", "cd_bar1_v", "cd_bar1_m", "cd_bar1_l", "cd_bar2_v", "cd_bar2_m", "cd_bar2_l", "cd_bar3_v", "cd_bar3_m", "cd_bar3_l"], function (v) {
